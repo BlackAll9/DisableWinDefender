@@ -1,15 +1,15 @@
-DisableWinDefender
+# DisableWinDefender
 DisableWinDefender est un outil qui permet de désactiver temporairement/Définitif Windows Defender sur un système Windows.
 
-Fonctionnalités
-Désactivation temporaire de Windows Defender pour une utilisation spécifique.
-Réactivation automatique de Windows Defender après une durée prédéfinie.
-Interface en ligne de commande simple et conviviale.
-Configuration requise
-Système d'exploitation : Windows (versions prises en charge : Windows 10, Windows 8, Windows 7)
-Les droits d'administrateur sont nécessaires pour exécuter l'outil.
-Utilisation
-Téléchargez le fichier exécutable "DisableWinDefender.exe" depuis la page de téléchargement du projet.
+# Fonctionnalités
+- Désactivation temporaire de Windows Defender pour une utilisation spécifique.
+- Réactivation automatique de Windows Defender après une durée prédéfinie.
+- Interface en ligne de commande simple et conviviale.
+- Configuration requise
+- Système d'exploitation : Windows (versions prises en charge : Windows 10, Windows 8, Windows 7)
+- Les droits d'administrateur sont nécessaires pour exécuter l'outil.
+- Utilisation
+**Téléchargez le fichier exécutable "DisableWinDefender.exe" depuis la page de téléchargement du projet.**
 
 Assurez-vous d'avoir les droits d'administrateur sur votre système.
 
@@ -19,15 +19,17 @@ Accédez à l'emplacement où vous avez enregistré le fichier "DisableWinDefend
 
 Exécutez la commande suivante :
 
-```
+```shell
 DisableWinDefender.exe --disable --duration <durée_en_minutes>
-Remplacez <durée_en_minutes> par la durée pendant laquelle vous souhaitez désactiver Windows Defender. Par exemple, si vous voulez le désactiver pendant 30 minutes, vous pouvez utiliser :
 ```
+Remplacez <durée_en_minutes> par la durée pendant laquelle vous souhaitez désactiver Windows Defender. Par exemple, si vous voulez le désactiver pendant 30 minutes, vous pouvez utiliser :
+
 
 ```
 DisableWinDefender.exe --disable --duration 30
-Windows Defender sera désactivé pendant la durée spécifiée.
 ```
+Windows Defender sera désactivé pendant la durée spécifiée.
+
 
 Après la fin de la durée spécifiée, Windows Defender sera réactivé automatiquement.
 
