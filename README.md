@@ -25,7 +25,7 @@ DisableWinDefender.exe --disable --duration <durée_en_minutes>
 
 **Remplacez <durée_en_minutes> par la durée pendant laquelle vous souhaitez désactiver Windows Defender. Par exemple, si vous voulez le désactiver pendant 30 minutes, vous pouvez utiliser :**
 
-```
+```shell
 DisableWinDefender.exe --disable --duration 30
 ```
 **__Windows Defender sera désactivé pendant la durée spécifiée__.**
